@@ -4,7 +4,7 @@
   align-content: center;
   justify-content: center;
   display: flex;
-  background-color: #f6e5c4;
+  background-color: rgba(228, 216, 197, 0.73);
 }
 .maintainer{
   background-color: #ffffff;
@@ -46,7 +46,7 @@
 }
 .text{
   color: rgba(0, 0, 0, 0.53);
-  top: 20px;
+  top:50px;
   font-size: 24px;
   position: absolute;
   font-family: "Avantgarde, TeX Gyre Adventor, URW Gothic L", serif;
@@ -74,6 +74,24 @@
   height: 200px;
   background-color: rgba(236, 150, 220, 0.16);
   position: absolute;
-  top:125px;
+  top:175px;
   border-radius: 25px;
+}
+.ingtext{
+  align-content: center;
+  justify-content: center;
+  display: flex;
+  width: 720px;
+  height: 230px;
+  position: absolute;
+  top:400px;
+  font-family: "Avantgarde, TeX Gyre Adventor, URW Gothic L", serif;
+  bottom: 0;
+  border-bottom: rgba(85, 85, 85, 0.18) solid 1px;
+}
+.header{
+  color: rgb(122, 105, 65);
+  font-family: "Avantgarde, TeX Gyre Adventor, URW Gothic L", serif;
+  position: absolute;
+  left:0px;
 }
