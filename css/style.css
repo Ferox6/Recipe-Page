@@ -4,10 +4,10 @@
   align-content: center;
   justify-content: center;
   display: flex;
-  background-color: #f2dd9f;
+  background-color: #f6e5c4;
 }
 .maintainer{
-  background-color: #ffffd6;
+  background-color: #ffffff;
   width: 800px;
   height: 1080px;
   align-content: center;
@@ -18,9 +18,62 @@
   top: 100px;
 
 }
+.image{
+  width: 720px;
+  height: 300px;
+  border-radius: 25px;
+  position: absolute;
+  top: 50px
+}
+.textcont{
+  align-content: center;
+  justify-content: center;
+  display: flex;
+  width: 720px;
+  height: 800px;
+  position: absolute;
+  top:375px;
+}
 
+.headertext{
+  font-size: 34px;
+  color: rgba(32, 30, 30, 0.92);
+  position: absolute;
+  font-family: "Avantgarde, TeX Gyre Adventor, URW Gothic L", serif;
+  font-weight: 1000;
+  left:0px;
+  color: #040404;
+}
 .text{
+  color: rgba(0, 0, 0, 0.53);
+  top: 20px;
   font-size: 24px;
-  color: #2eaeb8;
-
+  position: absolute;
+  font-family: "Avantgarde, TeX Gyre Adventor, URW Gothic L", serif;
+}
+.text1{
+  color: rgb(114, 7, 117);
+  font-size: 28px;
+  position: absolute;
+  left:50px;
+  font-family: "Avantgarde, TeX Gyre Adventor, URW Gothic L", serif;
+}
+.maintext{
+  color: rgba(0, 0, 0, 0.64);
+  font-size: 24px;
+  font-family: "Avantgarde, TeX Gyre Adventor, URW Gothic L", serif;
+  position: absolute;
+  left:50px;
+  top:40px;
+}
+.prep{
+  align-content: center;
+  justify-content: center;
+  display: flex;
+  width: 720px;
+  height: 200px;
+  background-color: rgba(236, 150, 220, 0.16);
+  position: absolute;
+  top:125px;
+  border-radius: 25px;
 }
